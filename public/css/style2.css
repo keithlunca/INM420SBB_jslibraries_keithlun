@@ -1,0 +1,95 @@
+/* body {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000000;
+  } */
+  
+  /* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ff9966;
+  }
+  
+  /* Content section styles */
+  .content-section {
+    display: none; /* Hide sections by default */
+    padding: 100px 20px; /* Adjust padding for content */
+    width: 100%;
+    text-align: center;
+  }
+  
+  .content-section.active {
+    display: block; /* Show the active section */
+  }
+
+
+
+
+
+
+/* Create a New CSS File */
+body{
+    background: #ec008c;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fc6767, #ec008c); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+  #quiz-section {
+    padding: 5% 11%;
+  }
+  .display-5 fw-bold {
+    font-family: cursive;
+    font-size: 4.3rem;
+    letter-spacing: 1.3px;
+  }
+
+  .p-5 mb-4 bg-light rounded-3 {
+    display: inline;
+  }
+
